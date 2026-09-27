@@ -5096,15 +5096,6 @@ msgstr "记录事件 \"<strong>%h</strong>…\""
 msgid "Log facility"
 msgstr "记录设施"
 
-#: modules/luci-base/luasrc/view/sysauth.htm:38
-#: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/sysauth.htm:41
-msgid "Log in"
-msgstr "登录"
-
-#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:81
-msgid "Log out"
-msgstr "退出"
-
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:185
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:143
 msgid "Log output level"
@@ -5135,6 +5126,15 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:62
 msgid "Logical network to which the tunnel will be added (bridged) (optional)."
 msgstr "隧道将要被添加（桥接）到的逻辑网络（可选）。"
+
+#: modules/luci-base/luasrc/view/sysauth.htm:38
+#: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/sysauth.htm:41
+msgid "Login"
+msgstr ""
+
+#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:81
+msgid "Logout"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:682
 msgid "Loose filtering"
@@ -10992,3 +10992,29 @@ msgstr "{example_nx} 返回 {nxdomain}。"
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
 msgstr "« 后退"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:284
+msgid "First, Please disable network"
+msgstr "首先，请关闭网络"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:939
+msgid "Change MAC and Hostname"
+msgstr "更改物理地址和主机名"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:941
+msgid "Pseudo"
+msgstr "伪装"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2208
+msgid "Change the mac and hostname of all wifinet"
+msgstr "更改所有无线网络的物理地址和主机名"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2210
+msgid "Pseudo all wifinet"
+msgstr "伪装所有无线网络"
+
+msgid "<abbr title=\"Optional, notes about this wifinet\">Notes</abbr>"
+msgstr "<abbr title=\"可选，无线网络备注\">备注</abbr>"
+
+msgid "Maximum length is %d characters"
+msgstr "最大%d个字符"
